@@ -1,0 +1,14 @@
+Users:
+  cichy:
+    login: cichy
+    password: a53d82c04371d9d7a16b60fac0a1f370
+    email: ciiichy@gmail.com
+    type: admin
+    name: Piotr Cichocki
+
+  allegro:
+    login: allegro
+    password: a1b633a192ec01dddba9e498aaf3fd53
+    email: maciej.boniewicz@allegro.pl
+    type: admin
+    name: Allegro

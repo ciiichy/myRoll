@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+#popup_kontener {position: absolute; top: 0px; left: 0px; width: 100%; z-index: 65000;}
+#popup_dodaj{margin: 110px auto; width: 714px;}
+.popup_naglowek{background:url(../images/popup_top.png) no-repeat; width: 714px; height: 69px;}
+.popup_srodek{background:url(../images/popup_middle.png) repeat-y; width: 714px;}
+.popup_stopka{background:url(../images/popup_bottom.png) no-repeat; width: 714px; height: 39px;}
+
+#popup_nazwa_dodawanieklienta{background: url(../images/panel_nag_dodawanieklienta.png); width:176px; height: 24px; float: left; margin: 36px 0px 0px 35px}
+#popup_nazwa_dodawanieproduktu{background: url(../images/panel_nag_dodawanieproduktu.png); width:194px; height: 24px; float: left; margin: 36px 0px 0px 35px}
+#popup_nazwa_dodawanieumowy{background: url(../images/panel_nag_dodawanieumowy.png); width:173px; height: 24px; float: left; margin: 36px 0px 0px 35px}
+#zamknijpanel{display: block; float: right; background: url(../images/panel_zamknij.png); width:82px; height: 15px; margin: 35px 35px 0px 0px}
+
+
+	#form_dodaj{
+		display: block;
+		width: 645px;
+		margin: 0px 0px 0px 35px;
+		padding-top: 25px;
+		overflow: auto;
+		}
+		
+		#form_dodaj label {
+			display: block; 
+			float: left; 
+			width: 200px; 
+			font-size:12px; 
+			height:20px; 
+			padding-top: 8px;
+			text-align: right;
+			margin-right: 15px;
+			}
+			
+		#form_dodaj .inp {
+			width:375px; 
+			height:26px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 5px
+			}
+			
+		#form_dodaj .inp2 {
+			width:120px; 
+			height:26px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 5px
+			}
+
+		#form_dodaj .inp_sel {
+			width:385px; 
+			height:26px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 0px 0px 5px
+			}
+			
+		#form_dodaj .shortlab {
+			width:90px; 
+			}
+			
+		#form_dodaj .inptab{
+			float: left;
+			margin-left: 103px;
+			width: 380px;
+			}
+			
+		#form_dodaj .inp_rd {
+			width:20px; 
+			margin: 10px 0px 10px 50px; 
+			}	
+			
+		#form_dodaj .rd_box{
+			float: left;
+			width:385px; 
+			height:70px; 
+			border-top: 1px solid #CCCCCC; 
+			border-bottom: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 0px 10px 0px
+			}
+			
+		#form_dodaj .rd_box_2{
+			float: left;
+			width:385px; 
+			height:35px; 
+			border-top: 1px solid #CCCCCC; 
+			border-bottom: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 0px 10px 0px
+			}
+			
+		#form_dodaj .other{
+			font-style: italic;
+			color: #666;
+		}
+		#form_dodaj .inp_txt{
+			width:375px; 
+			height:50px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 5px 5px;
+			font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;
+			}
+		
+	    #form_dodaj .snd {
+			float: right; 
+			margin: 15px 60px 15px 0px
+			}
+/*** ***/
+	
+		#config_form {		
+			display: block;
+			width: 900px;
+			margin: 0px 0px 50px 35px;
+			padding-top: 25px;
+			overflow: auto;
+		}
+		
+		#config_form label {
+			display: block; 
+			float: left; 
+			width: 200px; 
+			font-size:12px; 
+			height:20px; 
+			padding-top: 8px;
+			text-align: right;
+			margin-right: 15px;
+			clear: left;
+			}
+		#config_form .inp {
+			float: left; 
+			width:375px; 
+			height:26px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 5px;
+			clear: right;
+			}
+			
+		#config_form  .inp_sel {
+			width:385px; 
+			height:26px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px 0px 0px 5px
+			}
+			
+		#config_form .snd {
+			float: left; 
+			margin: 10px 0px 0px 10px
+			}
+			
+		#config_form .nag_conf{
+			width: 900px;
+			font-size: 12px;
+			font-weight: bold;
+			clear: both;
+			margin: 0px 0px 15px 0px;
+			}		
+			
+		.nag_conf_uz{
+			width: 900px;
+			font-size: 12px;
+			font-weight: bold;
+			clear: both;
+			margin: 15px 0px 10px 35px;
+			}	
+			
+		.separator2{
+			width: 870px;
+			height: 1px;
+			float: left;
+			clear: both;
+			margin: 20px 0px;
+			border-bottom: 1px solid #E6E6E6; 
+		}
+		
+		.conf {
+			padding-top: 30px;
+			}    	
+			
+    	#menu_config{
+			position: absolute;
+			top: 10px; left: 4px;
+			width: 700px; 
+			height: 26px;
+			z-index: 50;
+			}
+        #btt_config_main{
+			display: block;
+		  	width: 160px; 
+			height: 26px; 
+			background: url(../images/label_konfiguracja.png);
+			float: left;
+			}
+		 #btt_config_main_bg{
+			display: block;
+		  	width: 160px; 
+			height: 26px; 
+			background: url(../images/label_konfiguracja_bg.png);
+			float: left;
+			}
+        #btt_config_platnosci{
+			display: block;
+			width: 160px; 
+			height: 26px; 
+			background: url(../images/label_mailoplatnosci.png);
+			float: left;
+			}
+        #btt_config_platnosci_bg{
+			display: block;
+			width: 160px; 
+			height: 26px; 
+			background: url(../images/label_mailoplatnosci_bg.png);
+			float: left;
+			}
+        #btt_config_umowa{
+			display: block;
+			width: 200px; 
+			height: 26px; 
+			background: url(../images/label_okoncuumowy.png);
+			float: left;
+			}
+        #btt_config_umowa_bg{
+			display: block;
+			width: 200px; 
+			height: 26px; 
+			background: url(../images/label_okoncuumowy_bg.png);
+			float: left;
+			}
+        #btt_config_dostep{
+			display: block;
+			width: 160px; 
+			height: 26px; 
+			background: url(../images/label_dostep.png);
+			float: left;
+			}
+        #btt_config_dostep_bg{
+			display: block;
+			width: 160px; 
+			height: 26px; 
+			background: url(../images/label_dostep_bg.png);
+			float: left;
+			}
+			
+		.cf_s1{width:290px;}
+        .cf_s2{width:290px;}
+        .cf_s3{width:150px;}
+        .cf_s4{width:60px;}
+       	.cf_s5{width:60px;}
+		
+		.bold {font-weight: bold}

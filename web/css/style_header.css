@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head {background: url(../images/bg_head.png) center center no-repeat; height:105px; width:950px;}
+
+#logo{
+	background:url(../images/logo_big.png) no-repeat;
+	position:absolute;
+	right: 81px;
+	top: 22px;
+	width: 118px;
+	height: 56px
+}
+#btts_umowa{
+	position:absolute;
+	left: 15px;
+	top: 0px;
+	width: 132px;
+	height: 75px;
+}
+#btts_klient{
+	position:absolute;
+	left: 149px;
+	top: 0px;
+	width: 132px;
+	height: 75px;
+	}    
+#btts_produkt{
+	position:absolute;
+	left: 283px;
+	top: 0px;
+	width: 132px;
+	height: 75px;
+	}
+
+#btt_umowa{
+	display: block;
+	background:url(../images/btt_umowa.png) top center no-repeat;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 132px;
+	height: 31px
+	}
+#btt_umowa:hover{background:url(../images/btt_umowa.png) bottom center no-repeat;}
+
+#btt_klient{
+	display: block;
+	background:url(../images/btt_klient.png) top center no-repeat;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 132px;
+	height: 31px}
+#btt_klient:hover{background:url(../images/btt_klient.png) bottom center no-repeat;}
+
+#btt_produkt{
+	display: block;
+	background:url(../images/btt_produkt.png) top center no-repeat;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 132px;
+	height: 31px}
+#btt_produkt:hover{background:url(../images/btt_produkt.png) bottom center no-repeat;}
+
+.btt_dodaj{
+	display: block;
+	background:url(../images/btt_dodaj.png) top center no-repeat;
+	position:absolute;
+	left: 26px;
+	top: 35px;
+	width: 69px;
+	height: 18px
+}
+.btt_dodaj:hover {background:url(../images/btt_dodaj.png) bottom center no-repeat;}
+
+.btt_lista{
+	display: block;
+	background:url(../images/btt_lista.png) top center no-repeat;
+	position:absolute;
+	left: 27px;
+	top: 53px;
+	width: 69px;
+	height: 21px
+}
+.btt_lista:hover{background:url(../images/btt_lista.png) bottom center no-repeat;}
+
+#btt_config{
+	display: block;
+	background:url(../images/btt_config.png) top center no-repeat;
+	position:absolute;
+	left: 468px;
+	top: 0px;
+	width: 100px;
+	height: 31px
+}
+#btt_config:hover{background:url(../images/btt_config.png) bottom center no-repeat;}
+
+#btt_stats{
+	display: block;
+	background:url(../images/btt_stats.png) top center no-repeat;
+	position:absolute;
+	left: 572px;
+	top: 0px;
+	width: 100px;
+	height: 31px
+}
+#btt_stats:hover{background:url(../images/btt_stats.png) bottom center no-repeat;}
+        
+#przeterminowaneplatnosci{
+	position:absolute;
+	left: 240px;
+	top: 85px;
+	width: 50px;
+	height: 18px;
+	text-align: center;
+}
+#aktualnadata{
+	position:absolute;
+	left: 352px;
+	top: 85px;
+	width: 100px;
+	height: 18px;
+	text-align: center;
+	}
+
+.redbold{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #F00;
+	font-weight: bold;
+	}

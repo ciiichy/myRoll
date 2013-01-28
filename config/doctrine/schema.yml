@@ -1,0 +1,60 @@
+Users:
+  actAs: { Timestampable: ~ }
+  columns:
+    login:         { type: string(255),notnull: true }
+    password:      { type: string(255),notnull: true }
+    name:         { type: string(255) }
+    email:          { type: string(127),notnull: true  }
+    type:     { type: string(32), notnull: true }
+
+Clients:
+  actAs: { Timestampable: ~ }
+  columns:
+    address:      { type: string(255),notnull: true }
+    name:         { type: string(255) }
+    email:          { type: string(127),notnull: true  }
+    nip:     { type: string(32) }
+    regon:     { type: string(32) }
+    tel:     { type: string(32) }
+
+Configs:
+  actAs: { Timestampable: ~ }
+  columns:
+    name:         { type: string(255) ,notnull: true }
+    value:          { type: string(4095)  }
+
+Clients:
+  actAs: { Timestampable: ~ }
+  columns:
+    name:         { type: string(255) ,notnull: true }
+    address:         { type: string(255) }
+    nip:         { type: string(31) }
+    regon:         { type: string(15) }
+    email:          { type: string(127),notnull: true  }
+    tel:          { type: string(63)  }
+
+Product:
+  actAs: { Timestampable: ~ }
+  columns:
+    name:         { type: string(255),notnull: true  }
+    description:         { type: string(4095) }
+    prize:         { type: float }
+    regon:         { type: string(15) }
+    month:          { type: integer,notnull: true  }
+
+Contracts:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: { type: string(255)}
+    client_id:  { type: integer, notnull: true }
+    product_id:  { type: integer, notnull: true }
+    prize: { type: float }
+    month: { type: integer, notnull: true }
+    date_from: {type: date}
+    date_to: {type: date}
+    remind_pay: {type:boolean}
+    remind_end: {type:boolean}
+  relations:
+    Product:  { onDelete: CASCADE, local: product_id, foreign: id }
+    Clients: { onDelete: CASCADE, local: client_id, foreign: id }
+    

@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* css cleaner */
+body { font: 11px Verdana, Arial, Helvetica, sans-serif;  background:  #ffffff; margin: 0px; padding: 0px; color: #000; width: 100%}
+.login {background: url(../images/background.gif) top center no-repeat}
+
+ul, ol, dl { padding: 0px ;margin: 0px;}
+h1, h2, h3, h4, h5, h6, p {margin-top: 0px;	padding-right: 0px;padding-left: 0px; }
+a img { border: none;}
+a:link {color: #42413C;text-decoration: underline; }
+a:visited {color: #6E6C64;text-decoration: underline;}
+a:hover, a:active, a:focus {text-decoration: none;}
+
+div{position: relative; padding: 0px; margin: 0px; overflow: auto;}
+#container {width: 950px; margin: 0px auto;}
+#msg {color:red; text-align: center;}
+
+#panel_logowania{
+	background: url(../images/panel_logowania.png) center center no-repeat; 
+	height:399px; 
+	width:748px; 
+	margin: 70px auto}
+	
+	#pnl_logo{
+		background:url(../images/logo_small.png); 
+		width:66px; 
+		height:31px;
+		position:absolute;
+		right: 63px;
+		top: 43px;}
+		
+	#form_index{
+		display: block;
+		position: absolute;
+		left: 157px;
+		top: 152px;
+		height: 100px; 
+		width: 430px;}
+		
+		#form_index label {
+			display: block; 
+			float: left; 
+			width: 50px; 
+			font-size:12px; 
+			height:20px; 
+			padding-top: 8px;
+			}
+			
+		#form_index .inp {
+			width:350px; 
+			height:26px; 
+			border: 1px solid #CCCCCC; 
+			margin: 3px; 
+			padding: 0px  10px
+			}
+			
+		#form_index .snd {
+			float: right; 
+			margin: 15px 5px 0px 0px
+			}
+			
+	#adm_cont{
+		position: absolute;
+		top: 297px;
+		left: 157px;
+		border-top: 1px solid #CCCCCC;
+		width: 430px;
+		height: 50px;
+		text-align: right}
+		
+		#adm_cont a { 
+		background:url(../images/arrow_right_2.gif) left center no-repeat; 
+		font-family: Verdana, Geneva, sans-serif; 
+		font-size: 10px; 
+		color: #CCCCCC; 
+		text-align: right; 
+		padding-left: 10px; 
+		text-decoration: none
+		}
+		
+		#adm_cont a:hover {
+			color: #000
+			}
+		
